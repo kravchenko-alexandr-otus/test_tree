@@ -1,0 +1,17 @@
+{
+  "name": "test_tree",
+  "version": "1.0.0",
+  "description": "test my previous project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "coverage":"./node_modules/.bin/jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "minimist": "^1.2.8"
+  }
+}
